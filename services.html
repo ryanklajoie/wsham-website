@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services · West Seattle Home Asset Management</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">WS</span>
+      <span class="logo-text">West Seattle<br><em>Home Asset Management</em></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="nav-cta">Get Started</a></li>
+    </ul>
+    <button class="nav-hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Get Started</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">What We Offer</p>
+      <h1>Services designed around<br><em>your home's full lifecycle</em></h1>
+    </div>
+  </section>
+
+  <!-- ENTRY PRODUCT -->
+  <section class="service-block">
+    <div class="container service-block-inner">
+      <div class="service-label">
+        <span class="service-tier">Foundation</span>
+      </div>
+      <div class="service-content">
+        <h2>Annual Home Condition &amp; Exterior Maintenance Program</h2>
+        <div class="price-row">
+          <div class="price-option">
+            <span class="price">$1,000</span>
+            <span class="price-note">/ year — annual commitment</span>
+          </div>
+          <div class="price-divider">or</div>
+          <div class="price-option">
+            <span class="price">$1,500</span>
+            <span class="price-note">single engagement</span>
+          </div>
+        </div>
+        <p class="service-desc">The entry point to managed home ownership. We conduct a full exterior inspection, deliver a professional condition report, and perform exterior maintenance — all in a single annual engagement. This is not a sales funnel for repairs. It stands alone as a valuable, professional service.</p>
+        <div class="service-includes">
+          <h4>What's Included</h4>
+          <ul>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Full Exterior Property Inspection</strong>
+                <p>Roof condition check with photo documentation. Siding, drainage, and foundation review. Risk flagging for water intrusion, rot, and drainage failure.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Exterior &amp; Roof Pressure Washing</strong>
+                <p>Moss and algae removal. Debris clearing from gutters and roof perimeter.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Professional Condition Report</strong>
+                <p>Prioritized maintenance list with a clear "Fix Now / Monitor / Ignore" framework applied to every identified item.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="service-addons">
+          <h4>Optional Add-Ons</h4>
+          <div class="addon-chips">
+            <span>Gutter service</span>
+            <span>Minor repairs</span>
+            <span>Contractor scoping</span>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary">Schedule an Assessment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT UPSELL -->
+  <section class="service-block alt">
+    <div class="container service-block-inner">
+      <div class="service-label">
+        <span class="service-tier">Project Management</span>
+      </div>
+      <div class="service-content">
+        <h2>Remediation, Repair &amp; Renovation Management</h2>
+        <div class="price-row">
+          <div class="price-option">
+            <span class="price">$3,000 – $25,000+</span>
+            <span class="price-note">per project, depending on scope</span>
+          </div>
+        </div>
+        <p class="service-desc">When the inspection identifies issues that require intervention, we manage the full remediation process. We source and vet contractors, coordinate scheduling, provide oversight throughout execution, and hold vendors accountable to scope and quality.</p>
+        <div class="service-includes">
+          <h4>How It Works</h4>
+          <ul>
+            <li><span class="check">✓</span><div><strong>Issue Identified in Condition Report</strong><p>Every finding is categorized by urgency and risk profile.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Contractor Sourcing &amp; Vetting</strong><p>We identify the right trade specialist from our network. You don't spend hours on referrals.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Scoping &amp; Oversight</strong><p>We define the scope, review bids, and manage execution. You approve the plan — we handle the rest.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Quality Sign-Off</strong><p>Work is reviewed against scope before final payment is released to contractors.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFECYCLE -->
+  <section class="service-block">
+    <div class="container service-block-inner">
+      <div class="service-label">
+        <span class="service-tier">Long-Term</span>
+      </div>
+      <div class="service-content">
+        <h2>Lifecycle Retention &amp; Capital Planning</h2>
+        <div class="price-row">
+          <div class="price-option">
+            <span class="price">Available in Year 2+</span>
+            <span class="price-note">for active clients</span>
+          </div>
+        </div>
+        <p class="service-desc">For clients who have completed their first annual cycle, we offer expanded services that convert your home into a fully managed asset with a multi-year capital plan.</p>
+        <div class="service-includes">
+          <h4>Included Services</h4>
+          <ul>
+            <li><span class="check">✓</span><div><strong>Annual Re-Inspection &amp; Report Update</strong><p>Continuous tracking of your property's health over time.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Subscription Maintenance Plans</strong><p>Recurring seasonal services bundled into a predictable annual cost.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Multi-Year Capital Planning</strong><p>A forward-looking roadmap of expected interventions and their estimated costs — so nothing catches you off guard.</p></div></li>
+            <li><span class="check">✓</span><div><strong>Preferred Contractor Access</strong><p>Priority scheduling with vetted tradespeople from our established network.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE SERVE -->
+  <section class="who-we-serve">
+    <div class="container">
+      <p class="eyebrow">Who We Serve</p>
+      <h2>Built for West Seattle homeowners who treat property as wealth</h2>
+      <div class="criteria-grid">
+        <div class="criterion"><span>Home value $700k+</span></div>
+        <div class="criterion"><span>Owner-occupied, long-term resident</span></div>
+        <div class="criterion"><span>Household income $150k+</span></div>
+        <div class="criterion"><span>Limited time for contractor coordination</span></div>
+        <div class="criterion"><span>Values professional accountability</span></div>
+        <div class="criterion"><span>Treats home equity as part of net worth</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Start with an assessment. Build from there.</h2>
+      <a href="contact.html" class="btn-light">Get in Touch →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">WS</span>
+        <span>West Seattle Home Asset Management</span>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 West Seattle Home Asset Management. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
